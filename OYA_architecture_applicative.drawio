@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="4ECRn_zapmhFZPD5ZBt6">
-    <mxGraphModel dx="1830" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1453" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -430,11 +430,6 @@
         <mxCell id="gmlsyBeao1GRgY0OuYS0-184" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#5F5E5A;fontStyle=1" value="&lt;div&gt;Src: VALEURS_PAR_PROFIL&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ Claude Haiku&lt;/div&gt;" vertex="1">
           <mxGeometry height="20" width="160" x="270" y="529.5" as="geometry" />
         </mxCell>
-        <mxCell id="gmlsyBeao1GRgY0OuYS0-254" edge="1" parent="1" source="gmlsyBeao1GRgY0OuYS0-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="590" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="gmlsyBeao1GRgY0OuYS0-185" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#256B28;fontStyle=1;" value="-&amp;gt; Texte &amp;lt; 10s" vertex="1">
           <mxGeometry height="20" width="160" x="270" y="557" as="geometry" />
         </mxCell>
@@ -495,8 +490,7 @@
         <mxCell id="gmlsyBeao1GRgY0OuYS0-204" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#C48A00;fontColor=#C48A00;fontSize=14;labelBackgroundColor=#FFFFFF;fontStyle=1" value="scores reels via Lovable">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="920" y="570" />
-              <mxPoint x="840" y="570" />
+              <mxPoint x="840" y="518" />
               <mxPoint x="840" y="635" />
               <mxPoint x="460" y="635" />
               <mxPoint x="460" y="518" />
@@ -508,17 +502,12 @@
         <mxCell id="gmlsyBeao1GRgY0OuYS0-205" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#C48A00;fontColor=#C48A00;fontSize=14;labelBackgroundColor=#FFFFFF;fontStyle=1" value="meteo_resume via Lovable">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1110" y="580" />
-              <mxPoint x="1020" y="580" />
-              <mxPoint x="1020" y="660" />
+              <mxPoint x="1110" y="660" />
               <mxPoint x="350" y="660" />
             </Array>
             <mxPoint x="1110" y="518" as="sourcePoint" />
             <mxPoint x="350" y="518" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="gmlsyBeao1GRgY0OuYS0-255" edge="1" parent="1" source="gmlsyBeao1GRgY0OuYS0-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gmlsyBeao1GRgY0OuYS0-207" value="">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gmlsyBeao1GRgY0OuYS0-206" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#8a6d00;fontStyle=1" value="F4 + F6 ecrivent dans LOGS Airtable a chaque appel IA" vertex="1">
           <mxGeometry height="22" width="700" x="70" y="660" as="geometry" />
@@ -683,7 +672,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gmlsyBeao1GRgY0OuYS0-242" edge="1" parent="1" source="gmlsyBeao1GRgY0OuYS0-183" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#5F5E5A;fontColor=#5F5E5A;fontSize=14;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.3;entryY=0;entryDx=0;entryDy=0;fontStyle=1" target="gmlsyBeao1GRgY0OuYS0-220" value="API Claude">
+        <mxCell id="gmlsyBeao1GRgY0OuYS0-242" edge="1" parent="1" source="gmlsyBeao1GRgY0OuYS0-183" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#5F5E5A;fontColor=#5F5E5A;fontSize=14;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=1" value="API Claude">
           <mxGeometry relative="1" x="-0.0729" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -691,6 +680,7 @@
               <mxPoint x="240" y="610" />
               <mxPoint x="240" y="890" />
             </Array>
+            <mxPoint x="240" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gmlsyBeao1GRgY0OuYS0-243" edge="1" parent="1" source="gmlsyBeao1GRgY0OuYS0-195" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#5F5E5A;fontColor=#5F5E5A;fontSize=14;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" target="gmlsyBeao1GRgY0OuYS0-221" value="API meteo">
@@ -720,7 +710,7 @@
         <mxCell id="gmlsyBeao1GRgY0OuYS0-245" edge="1" parent="1" source="gmlsyBeao1GRgY0OuYS0-178" style="edgeStyle=orthogonalEdgeStyle;dashed=1;dashPattern=6 4;endArrow=open;endFill=0;strokeColor=#B86A00;fontColor=#B86A00;fontSize=14;labelBackgroundColor=#FFFFFF;exitX=0.9;exitY=0;exitDx=0;exitDy=0;entryX=0.9;entryY=1;entryDx=0;entryDy=0;fontStyle=1" target="gmlsyBeao1GRgY0OuYS0-176" value="JSON response">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gmlsyBeao1GRgY0OuYS0-247" parent="1" style="text;html=1;strokeColor=#5F5E5A;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;spacingLeft=10;" value="&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;LEGENDE&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Fleche pleine&lt;/b&gt; : flux actif (POST webhook, lecture/ecriture Airtable, appel API) | &lt;b&gt;Fleche pointillee&lt;/b&gt; : retour JSON ou interaction inter-workflow via Lovable | &lt;b&gt;Jaune &lt;/b&gt;: workflow n8n operationnel |&amp;nbsp;&lt;b&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Orange &lt;/b&gt;: Cloudflare Tunnel |&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Gris &lt;/b&gt;: SYNTHESES non connectee | F7 scores reels =&amp;gt; F4 | F8 meteo_resume =&amp;gt; F4 | F4+F6 -&amp;gt; LOGS&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="gmlsyBeao1GRgY0OuYS0-247" parent="1" style="text;html=1;strokeColor=#5F5E5A;fillColor=#F5F5F5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;spacingLeft=10;" value="&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;LEGENDE&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Fleche pleine&lt;/b&gt; : flux actif (POST webhook, lecture/ecriture Airtable, appel API) | &lt;b&gt;Fleche pointillee&lt;/b&gt; : retour JSON ou interaction inter-workflow via Lovable | &lt;b&gt;Jaune &lt;/b&gt;: workflow n8n operationnel |&amp;nbsp;&lt;b&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Orange &lt;/b&gt;: Cloudflare Tunnel |&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Gris &lt;/b&gt;: SYNTHESES non connectees | F7 scores reels =&amp;gt; F4 | F8 meteo_resume =&amp;gt; F4 | F4+F6 -&amp;gt; LOGS&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="85" width="1850" x="50" y="995" as="geometry" />
         </mxCell>
         <mxCell id="gmlsyBeao1GRgY0OuYS0-258" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;endArrow=open;endFill=0;strokeColor=#256B28;fontColor=#256B28;fontSize=14;labelBackgroundColor=#FFFFFF;entryX=0.2;entryY=0;entryDx=0;entryDy=0;fontStyle=1;" value="POST Webhook">
