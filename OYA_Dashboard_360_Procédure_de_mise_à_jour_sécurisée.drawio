@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="94mp7C_ilmPD2-OuqDqp" name="Page-1">
+    <mxGraphModel dx="1705" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=light-dark(#1B4332, #ffffff);" value="OYA Dashboard 360° — Procédure de mise à jour sécurisée" vertex="1">
+          <mxGeometry height="40" width="760" x="330" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1B4332;strokeColor=#1B4332;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=8;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Étape 1 Démarrer l&#39;environnement&lt;/font&gt;&lt;br&gt;Lancer n8n (port 5678) + tunnel Cloudflare&lt;br&gt;Mettre à jour les 8 URLs webhook dans Lovable" vertex="1">
+          <mxGeometry height="70" width="500" x="335" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="20" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#1B4332;strokeWidth=2;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=8;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Étape 2 Sauvegarder l&#39;état actuel&lt;/font&gt;&lt;br&gt;Lovable : historique commits GitHub (oya-agro-insight)&lt;br&gt;n8n : exporter le workflow en JSON (oya-n8n-workflows)&lt;br&gt;Airtable : capturer la structure de la table concernée" vertex="1">
+          <mxGeometry height="80" width="500" x="335" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="21" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=8;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Étape 3 Identifier le périmètre&lt;/font&gt;&lt;br&gt;Consulter la section 3 (fiches par fonctionnalité)&lt;br&gt;Identifier toutes les fonctionnalités impactées" vertex="1">
+          <mxGeometry height="70" width="500" x="335" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="22" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=8;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Étape 4 Appliquer la modification&lt;/font&gt;&lt;br&gt;Respecter les points de vigilance par composant&lt;br&gt;(cf. tableau section 6)" vertex="1">
+          <mxGeometry height="70" width="500" x="335" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" source="6" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=8;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Étape 5 Tester et valider&lt;/font&gt;&lt;br&gt;Exécuter les tests rapides (section 3)&lt;br&gt;pour chaque fonctionnalité impactée" vertex="1">
+          <mxGeometry height="70" width="500" x="335" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="24" edge="1" parent="1" source="7" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#EF8D11;strokeColor=#EF8D11;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Test concluant ?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="485" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="25" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#1B4332;strokeWidth=2;fontStyle=1;fontSize=16;fontColor=light-dark(default, #00ff00);" target="9" value="Oui">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1B4332;strokeColor=#1B4332;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Mise en production&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="485" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="26" edge="1" parent="1" source="8" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C0392B;strokeWidth=2;fontStyle=1;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=light-dark(default, #ff0000);" target="10" value="Non">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C0392B;strokeColor=#C0392B;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=8;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Restaurer depuis la sauvegarde&lt;br&gt;(retour étape 2)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="870" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="27" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C0392B;strokeWidth=2;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="715" />
+              <mxPoint x="1060" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
