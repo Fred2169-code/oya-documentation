@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="2cSLZShtfpaBFfisNPvu">
+    <mxGraphModel dx="2936" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=23;fontStyle=1;fontColor=light-dark(#1B4332, #000000);" value="OYA Dashboard 360° — Arbre de décision incidents" vertex="1">
+          <mxGeometry height="70" width="1190" x="560" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1B4332;strokeColor=#1B4332;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Un incident est constaté dans Lovable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="300" x="1000" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-3" edge="1" parent="1" source="sSjhYEkwkjHl9bVXOezc-2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#1B4332;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="sSjhYEkwkjHl9bVXOezc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#EF8D11;strokeColor=#EF8D11;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Plusieurs fonctionnalités&#xa;affectées simultanément ?" vertex="1">
+          <mxGeometry height="90" width="200" x="1050" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-5" edge="1" parent="1" source="sSjhYEkwkjHl9bVXOezc-4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#C0392B;strokeWidth=2;fontStyle=1;fontSize=20;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="sSjhYEkwkjHl9bVXOezc-6" value="Oui">
+          <mxGeometry relative="1" x="-0.2973" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C0392B;strokeColor=#C0392B;fontColor=#ffffff;fontSize=11;arcSize=8;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Incident 1&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Vérifier le tunnel Cloudflare&lt;br&gt;→ Relancer + mettre à jour les 8 URLs webhook dans Lovable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="360" x="600" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-7" edge="1" parent="1" source="sSjhYEkwkjHl9bVXOezc-4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;fontStyle=1;fontSize=20;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="sSjhYEkwkjHl9bVXOezc-8" value="Non">
+          <mxGeometry relative="1" x="-0.1667" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#EF8D11;strokeColor=#EF8D11;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Quelle fonctionnalité&#xa;est affectée ?" vertex="1">
+          <mxGeometry height="90" width="220" x="1040" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;fontStyle=1;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="Synthèse IA&#xa;ou Q&amp;R">
+          <mxGeometry relative="1" x="-0.01" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1150" y="607.26" />
+            </Array>
+            <mxPoint x="1150" y="602.48" as="sourcePoint" />
+            <mxPoint x="1400" y="607.51" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;arcSize=8;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Incident 2&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Dans n8n, vérifier journaux d&#39;exécution&lt;br&gt;→ Régénérer clé API Anthropic dans n8n &amp;gt; Credentials&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="350" x="1400" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-11" edge="1" parent="1" source="sSjhYEkwkjHl9bVXOezc-8" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;fontStyle=1;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="sSjhYEkwkjHl9bVXOezc-12" value="Météo">
+          <mxGeometry relative="1" x="0.1986" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1150" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;arcSize=8;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Incident 3&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Vérifier connexion internet du serveur n8n&lt;br&gt;→ Tester https://api.open-meteo.com dans un navigateur&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="353" x="560" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;fontStyle=1;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="sSjhYEkwkjHl9bVXOezc-14" value="Formations">
+          <mxGeometry relative="1" x="0.037" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1150" y="690" />
+              <mxPoint x="1400" y="690" />
+            </Array>
+            <mxPoint x="1150" y="670" as="sourcePoint" />
+            <mxPoint x="1520" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;arcSize=8;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;I&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;ncident 4&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Dans Airtable, comparer Risque_associé (FORMATIONS)&lt;br&gt;et Niveau_risque (VALEURS_PAR_PROFIL)&lt;br&gt;→ Corriger la valeur dans FORMATIONS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="350" x="1400" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;fontStyle=1;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="sSjhYEkwkjHl9bVXOezc-16" value="Email inscription">
+          <mxGeometry relative="1" x="0.3333" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1150" y="780" />
+            </Array>
+            <mxPoint x="1150" y="640" as="sourcePoint" />
+            <mxPoint x="1520" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;arcSize=8;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Incident 5&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Dans Brevo (https://app.brevo.com)&lt;br&gt;Vérifier statut compte et compteur envois&lt;br&gt;→ Attendre reset ou upgrader le plan&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="350" x="1400" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;fontStyle=1;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="sSjhYEkwkjHl9bVXOezc-18" value="Indicateurs">
+          <mxGeometry relative="1" x="0.3953" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1150" y="740" />
+              <mxPoint x="913" y="740" />
+            </Array>
+            <mxPoint x="1150" y="590" as="sourcePoint" />
+            <mxPoint x="773" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;arcSize=8;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;I&lt;font&gt;ncident 6&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Dans Airtable, comparer noms de profil&lt;br&gt;entre PROFILS et VALEURS_PAR_PROFIL&lt;br&gt;→ Corriger dans VALEURS_PAR_PROFIL&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="353" x="560" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;fontStyle=1;fontSize=15;" value="Scores diagnostic">
+          <mxGeometry relative="1" x="0.4583" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1150" y="870" />
+              <mxPoint x="1400" y="870" />
+            </Array>
+            <mxPoint x="1150" y="640" as="sourcePoint" />
+            <mxPoint x="1400" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;arcSize=8;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Incident 7&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Dans n8n, consulter journaux du workflow diagnostic&lt;br&gt;→ Vérifier les 5 champs obligatoires dans Lovable&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="350" x="1400" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-21" edge="1" parent="1" source="sSjhYEkwkjHl9bVXOezc-8" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;fontStyle=1;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="sSjhYEkwkjHl9bVXOezc-22" value="Dashboard admin">
+          <mxGeometry relative="1" x="0.5799" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1150" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;arcSize=8;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Incident 8&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;1. Vérifier tunnel Cloudflare&lt;br&gt;2. Dans Airtable, vérifier enregistrements [SAISIES_UTILISATEUR]&lt;br&gt;→ Relancer tunnel si inactif&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="353" x="560" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;fontStyle=1;fontSize=15;" value="Export PDF">
+          <mxGeometry relative="1" x="0.5807" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1150" y="944.98" />
+            </Array>
+            <mxPoint x="1150" y="580" as="sourcePoint" />
+            <mxPoint x="1400" y="944.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;arcSize=8;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font&gt;Incident 9&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;V&lt;font style=&quot;font-size: 13px;&quot;&gt;érifier dans Lovable que la synthèse IA est affichée&lt;br&gt;→ Générer synthèse IA avant de télécharger&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="350" x="1400" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-25" edge="1" parent="1" source="sSjhYEkwkjHl9bVXOezc-8" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;fontStyle=1;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="sSjhYEkwkjHl9bVXOezc-26" value="Admin inaccessible">
+          <mxGeometry relative="1" x="0.669" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1150" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;arcSize=8;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Incident 10&lt;/font&gt;&lt;/b&gt;&lt;br&gt;V&lt;font style=&quot;font-size: 13px;&quot;&gt;érifier le mot de passe dans Admin.tsx&lt;br&gt;(dépôt oya-agro-insight)&lt;br&gt;→ Corriger via prompt Lovable ciblé&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="353" x="560" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#3B8870;strokeWidth=2;fontStyle=1;fontSize=15;" target="sSjhYEkwkjHl9bVXOezc-28" value="Une fonctionnalité&#xa;isolée (workflow)">
+          <mxGeometry relative="1" x="0.6389" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1150" y="1030" />
+            </Array>
+            <mxPoint x="1150" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sSjhYEkwkjHl9bVXOezc-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3B8870;strokeColor=#3B8870;fontColor=#ffffff;fontSize=11;arcSize=8;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Incident 11&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Dans n8n, vérifier statut Active/Inactive&lt;br&gt;du workflow concerné&lt;br&gt;→ Réactiver + test rapide section 3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="350" x="1400" y="990" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
